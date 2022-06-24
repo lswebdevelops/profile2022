@@ -102,14 +102,14 @@ footer{
   #myName{
     font-size: 4rem;
    
-    color: yellow;
+    color: orange;
     
   }
   #myFamName{
 
     font-size: 4rem;
     color: rgb(40, 35, 44);
-    background-color: yellow;
+    background-color: orange;
     font-family: 'Archivo Black', sans-serif;
     font-family: 'BhuTuka Expanded One', cursive;
     font-family: 'Comfortaa', cursive;
@@ -194,6 +194,20 @@ text-align: center;
 #divRight{
   text-align: center;
 }
+
+
+#pProjects{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
 }
 
 
