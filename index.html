@@ -5,12 +5,123 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/yellow_ls_favicon.png">
-  <link rel="stylesheet" href="css/styles.css">
+  
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
   <script src="js/script.js" defer></script>  
-  <title>Luciano Sardanha - Web Developer</title>
+  <script src="https://kit.fontawesome.com/8e7c30ddfb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Comfortaa:wght@300&family=Parisienne&family=Quicksand&family=Roboto:wght@100&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+  <title>Luciano Sardanha's Portfolio</title>
 </head>
 <body>
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+      <div class="container-fluid">
+      <a class="navbar-brand"  href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Work
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" id="dropdown-item1" href="#">Chinese Restaurant</a></li>
+              <li><a class="dropdown-item" id="dropdown-item2" href="#">Guber's Barbershop</a></li>
+              <li><a class="dropdown-item" id="dropdown-item3" href="#">Photography Studio</a></li>
+              <li><a class="dropdown-item" id="dropdown-item4" href="#">My Profile2</a></li>
+              <li><a class="dropdown-item" id="dropdown-item5" href="#">My Profile3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- end nav -->
+<div id="container">
   
-  <h1> Hi, my name is Luciano Sardanha and I am a web developer</h1>
+<section id="section1">
+
+  <h1 id="myName">Luciano </h1><br>
+  <span id="myFamName">Sardanha</span>
+</section><!-- end of section 01 -->
+ 
+ <hr>
+<!-- starting image and a text about myself -->
+
+<div id="containerImg">   
+  <div id="divLeft">Lorem ipsum dolor sit amet consectetur,
+     adipisicing elit. Vel quod, harum sunt
+      omnis quo molestias ipsam ea quidem et aspernatur in 
+    eligendi, aliquam ipsum? Aspernatur 
+    assumenda culpa esse. Quae, quam?
+    <br>
+    <div class="social-icons">
+      <p class="field">
+        <a class="button is-medium" href="https://twitter.com/LucianoSardanha" target="_blank"><span class="icon is-small"><i class="fab fa-twitter fa-fw"></i></span></a>
+       
+        <a class="button is-medium" href="https://www.linkedin.com/in/luciano-sardanha-0bb47054/" target="_blank"><span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span></a>
+        
+        <a class="button is-medium" href="https://github.com/sardanhaluciano9690" target="_blank"><span class="icon is-small"><i class="fa-brands fa-github"></i></span></a>
+
+        <a class="button is-medium" href="mailto:lswebdevelops@gmail.com" target="_blank"><span class="icon is-small">
+            <i class="far fa-envelope fa-fw"></i></span></a></p>
+    </div>
+  
+  
+  
+  
+  </div> <!-- end divLeft -->
+
+
+  <div id="divRight"><img src="images/luciano.png" alt="Luciano's Photo"></div>
+  
+</div><!-- end divRight -->
+
+<!-- finishing image and a text about myself -->
+
+ <hr>
+
+ </div><!-- end container 01 -->
+ 
+<!-- begin container 02 -->
+
+
+
+<!-- end container 02 -->
+
+
+
+    <footer class="section is-primary is-small has-text-centered">
+     
+        <div class="columns is-centered"> 
+          <div class="column is-one-third">
+            <p class="title is-size-4-touch">Just keep coding...</p>
+          </div>
+        </div>
+       
+        <div class="copyright">Copyright <span class="icon has-white-text" style="vertical-align:middle;"><i class="far fa-copyright"></i></span><span>     </span> LS - Web Development</div>
+        
+      </div>
+
+    </footer>
 </body>
+ 
 </html>

@@ -1,3 +1,512 @@
 body{
-    background-color: antiquewhite;
+  background-color: rgb(38, 30, 42);
+  color: aliceblue;
+  padding-left: 2%;
+  padding-right: 2%;
+ 
 }
+img{
+  width: 98%;
+  min-width: 222;
+
+}
+/* small screen */
+@media screen and (min-width: 374px){
+  body{
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(38, 30, 42);
+    
+}
+#container{
+min-height: 100vh;
+margin-bottom:100px;
+
+}
+#container:after{
+    
+   flex:1;
+   
+}
+footer{
+    background-color: rgb(38, 30, 42);
+   text-align: center;
+   color: rgb(145, 140, 140);
+   
+}
+.navbar{
+    font-size: 1rem;
+
+}
+.dropdown-menu{
+    width: 85%;
+    background-color:rgb(100, 99, 100);
+    
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.dropdown-item:hover{
+    display: inline-block;
+    transition: 2s ease;
+    font-size: 1.2rem;
+    
+    
+  }
+  
+  .dropdown-item:hover{
+   
+    transform:translate(20px);
+    background-color: #aaaaaa;
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 4px;
+  }
+  
+  .social-icons:hover{
+    display: inline-block;
+    transition: 1s ease;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    
+  }
+  .social-icons{
+    padding-top: 20px;
+  }
+.title{
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+
+
+  
+  .gallery-image{
+    text-align: center;
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+   
+    
+  }
+
+ 
+
+  #myName{
+    font-size: 4rem;
+   
+    color: yellow;
+    
+  }
+  #myFamName{
+
+    font-size: 4rem;
+    color: rgb(40, 35, 44);
+    background-color: yellow;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    max-width: 400px;
+
+   
+  }
+  
+
+
+  #section1{
+    text-align: center;
+    background-color: rgb(40, 35, 44);
+    min-height: 300px;
+  
+  }
+
+  #connect{
+    padding-top:10px;
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  hr{
+border: 1px solid rgb(38, 30, 42);
+opacity: 1;
+padding: 0;
+margin: 0;
+
+  
+}
+
+
+#containerImg{
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+#containerImg > #divLeft {
+  
+  color: aliceblue;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+ 
+}
+ #divLeft {
+text-align: center; 
+}
+
+#containerImg > #divRight{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  width: 100%;
+  min-width: 222px;
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+#divRight{
+  text-align: center;
+}
+}
+
+
+
+
+
+/* medium sized screen */
+@media screen and (min-width: 778px){
+  body{
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(38, 30, 42);
+}
+#container{
+min-height: 100vh;
+margin-bottom:100px;
+}
+#container:after{
+    
+   flex:1;
+}
+footer{
+    background-color: rgb(38, 30, 42);
+   text-align: center;
+   color: rgb(145, 140, 140);
+}
+.navbar{
+    font-size: 1.2rem;
+
+}
+.dropdown-menu{
+    width: 15%;
+    background-color:rgb(100, 99, 100);
+    
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.dropdown-item:hover{
+    display: inline-block;
+    transition: 2s ease;
+    font-size: 1.2rem;
+    
+    
+  }
+  
+  .dropdown-item:hover{
+   
+    transform:translate(20px);
+    background-color: #aaaaaa;
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 4px;
+  }
+  
+  .connect_icons:hover{
+    display: inline-block;
+    transition: 1s ease;
+    font-size: 2rem;
+    
+  }
+
+.title{
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  
+  .gallery-image{
+    text-align: center;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+   
+    
+  }
+
+  img{
+    padding: 5% 0 0 0;
+    width: 75%;
+    max-width: 434px;
+    min-width: 215px;
+  }
+  #myName{
+    font-size: 8rem;
+   
+    color: yellow;
+    
+  }
+  #myFamName{
+
+    font-size: 8rem;
+    color: rgb(40, 35, 44);
+    background-color: yellow;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   font-weight:bolder;
+    max-width: 400px;
+
+   
+  }
+  #section1{
+    text-align: center;
+    background-color: rgb(40, 35, 44);
+    min-height: 500px;
+  }
+  .social-icons{
+    padding-top: 15px;
+  }
+  #connect{
+    padding-top:10px;
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+  }
+   #section2{
+    background-color: rgb(40, 37, 43);
+    min-height: 500px;
+  }
+  hr{
+border: 1px solid rgb(38, 30, 42);
+opacity: 1;
+padding: 0;
+margin: 0;
+  
+}
+article{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    width: 75%;
+    font-size: 1.5rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+ }
+/* big screens  */
+ @media screen and (min-width: 1200px){
+  body{
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(38, 30, 42);
+}
+#container{
+min-height: 100vh;
+margin-bottom:100px;
+}
+#container:after{
+    
+   flex:1;
+}
+footer{
+    background-color: rgb(38, 30, 42);
+   text-align: center;
+   color: rgb(145, 140, 140);
+}
+.navbar{
+    font-size: 1.2rem;
+
+}
+.dropdown-menu{
+    width: 15%;
+    background-color:rgb(100, 99, 100);
+    
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.dropdown-item:hover{
+    display: inline-block;
+    transition: 2s ease;
+    font-size: 1.2rem;
+    
+    
+  }
+  
+  .dropdown-item:hover{
+   
+    transform:translate(20px);
+    background-color: #aaaaaa;
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 4px;
+  }
+  
+  .connect_icons:hover{
+    display: inline-block;
+    transition: 1s ease;
+    font-size: 2rem;
+    
+  }
+
+.title{
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  
+  .gallery-image{
+    text-align: center;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+   
+    
+  }
+
+  img{
+    padding: 5% 0 0 0;
+    width: 75%;
+    max-width: 434px;
+    min-width: 215px;
+  }
+  #myName{
+    font-size: 10rem;
+   
+    color: yellow;
+    
+  }
+  #myFamName{
+
+    font-size: 10rem;
+    color: rgb(40, 35, 44);
+    background-color: yellow;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   font-weight:bolder;
+    max-width: 400px;
+
+   
+  }
+  #section1{
+    text-align: center;
+    background-color: rgb(40, 35, 44);
+    min-height: 500px;
+  }
+  .social-icons{
+    padding-top: 15px;
+  }
+  #connect{
+    padding-top:10px;
+    font-size: 2rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+  }
+   #section2{
+    background-color: rgb(40, 37, 43);
+    min-height: 500px;
+  }
+  hr{
+border: 1px solid rgb(38, 30, 42);
+opacity: 1;
+padding: 0;
+margin: 0;
+  
+}
+article{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    width: 75%;
+    font-size: 1.5rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+    
+ 
+ }
